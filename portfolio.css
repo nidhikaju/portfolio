@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar {
+    background: #333;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: deeppink;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 2px auto;
+}
+
+.navbar .logo span {
+    font-size: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: rgb(220, 11, 178);
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+    height: 100vh;
+    color: darkblue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThx-mDh58YD84YBDu5Tb-Rh0m3Iw-w-LEJGA&s");
+    background-size: cover;
+}
+
+.p1 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.p2 {
+    font-size: 70px;
+    color: rgb(22, 247, 97);
+}
+
+.p3 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.p3 .s1 {
+    color: rgb(226, 7, 80);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.p4 {
+    background-color: rgb(37, 37, 184);
+    color: white;
+}
+
+.color {
+    background-color: palevioletred;
+}
+
+.about,
+.projects,
+.contact {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.c1,
+.c2,
+.c3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.project-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: lightseagreen;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7rem;
+    border: none;
+    background-color: rgb(37, 37, 184);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

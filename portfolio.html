@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="nav1">
+            <a href="#" class="logo">My <span>P</span>ortfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="home">
+            <div class="p1">Hello, My name is</div>
+            <div class="p2">Nidhi Sharma</div>
+            <div class="p3">And I'm a <span class="s1">WebDeveloper</span></div>
+            <button class="p4" id="resumeButton">Download Resume</button>
+
+        </div>
+        <div class="image">
+            <img src="C:\picture.jpg" width="250px" height="300px" style="border-radius: 50%" />
+        </div>
+
+    </section>
+
+    <div class="color">
+        <section id="about" class="about">
+            <h2 class="c1">About Me</h2>
+            <p>I am a web developer with a passion for creating intuitive and responsive web designs. Though I'm just started my career, I have hands-on experience from personal projects where I have honed my skills in front end technologies like HTML, CSS,
+                Bootstrap, Javascript and ReactJs.I am eager to contribute to real world projects and continuously improve my abilities by learning new frameworks and tools.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="c2">Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>Implemented javascript to fetch whether data from an API, dynamically update the interface based on user inputs or retrieved data.<br/>Integrated with a whether API, to fetch real time whether data. </p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 3</h3>
+                    <p>Description of the project.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="c3">Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
